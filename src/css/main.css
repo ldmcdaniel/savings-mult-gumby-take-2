@@ -1,0 +1,8 @@
+body.page-background {
+	background: linear-gradient( #d5f1f0, #d5f1f0 150px, #75cbd2 151px, #75cbd2 100000px);
+}
+
+body div.row {
+	background-color: #fff;
+	border-radius: 3%;
+}
