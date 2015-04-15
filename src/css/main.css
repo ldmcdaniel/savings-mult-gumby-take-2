@@ -1,8 +1,17 @@
+body.page-background {
+	background: linear-gradient( #d5f1f0, #d5f1f0 150px, #75cbd2 151px, #75cbd2 100000px);
+}
+
+body div.row {
+	background-color: #fff;
+	border-radius: 3%;
+}
+
 li{
 	display: inline;
 }
 
-ul{
+header.ul{
 	float: right;
 }
 .savings-mult-logo{
@@ -29,3 +38,4 @@ h3 a{
 .btn.default.press{
 	background-color:#F20088;
 }
+
