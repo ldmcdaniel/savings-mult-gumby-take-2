@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body.page-background {
 	background: linear-gradient( #d5f1f0, #d5f1f0 150px, #75cbd2 151px, #75cbd2 100000px);
 }
@@ -6,3 +7,16 @@ body div.row {
 	background-color: #fff;
 	border-radius: 3%;
 }
+=======
+li{
+	display: inline;
+}
+
+header.ul{
+	float: right;
+}
+.savings-mult-logo{
+	height: 150px;
+	width: 250px;
+} 
+>>>>>>> 741251085c1dc2e5d08d9e1b2ad2575dcc95bab2
