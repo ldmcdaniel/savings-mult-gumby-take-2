@@ -8,7 +8,7 @@ body {
 
 body div.row {
 	background-color: #fff;
-	border-radius: 3%;
+	border-radius: 0 0 5% 5%;
 }
 
 li{
@@ -80,7 +80,7 @@ div.six.columns.top-menu {
 
 body div.row.header-div {
 	margin-top: 100px;
-	border-radius: 10%;
+	border-radius: 5% 5% 0 0;
 }
 
 div.row.last-link-row {
@@ -106,5 +106,10 @@ div.pink-nav-bar a{
 	font-family: "Gorditas", "cursive";
 	color: #68073c;
 	font-size: 20px;
-	margin-right: 40px;
+	margin-right: 60px;
+}
+
+input.pink-nav-search {
+	border: 2px solid #68073c;
+	color: #68073c;
 }
