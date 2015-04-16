@@ -1,5 +1,5 @@
 
-body.page-background {
+body {
 	background-color: #75cbd3;
 	/*background: linear-gradient( #d5f1f0, #d5f1f0 150px, #75cbd2 151px, #75cbd3 10000px);
 	background: linear-gradient(to bottom, #1e5799 0%,#207cca 31%,#2989d8 31%,#7db9e8 100%);
@@ -18,6 +18,7 @@ li{
 header.ul{
 	float: right;
 }
+
 .savings-mult-logo{
 	height: 150px;
 	width: 250px;
@@ -31,11 +32,27 @@ div.spacer {
 	height: 140px;
 }
 
-h3{	
+h3, h4 {
+	font-family: "Gorditas";
+	font-weight: bold;
+}
+
+p, h5 {
+	font-family: "Gorditas";
+}
+
+h5{	
  	color: #5FC6CC;
 }
 h3 a{
 	color: white;
+}
+
+h4 {
+	color: #8CB82D;
+}
+p {
+	color: #56B2BA;
 }
 
 .btn.default.about{
@@ -50,4 +67,7 @@ h3 a{
 .btn.default.press{
 	background-color:#F20088;
 }
+
+
+
 
