@@ -44,7 +44,8 @@ p, h5 {
 h5{	
  	color: #5FC6CC;
 }
-h3 a{
+
+h3 a, .btn.default a{
 	color: white;
 }
 
@@ -58,12 +59,15 @@ p {
 .btn.default.about{
 	background-color: #6DCCD0;
 }
+
 .btn.default.contact{
 	background: #88B747;
 }
+
 .btn.default.blog{
 	background-color:#732D89;
 }
+
 .btn.default.press{
 	background-color:#F20088;
 }
