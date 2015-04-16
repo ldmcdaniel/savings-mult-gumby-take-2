@@ -1,5 +1,4 @@
 
-
 body.page-background {
 	background-color: #75cbd3;
 	/*background: linear-gradient( #d5f1f0, #d5f1f0 150px, #75cbd2 151px, #75cbd3 10000px);
@@ -31,3 +30,24 @@ div.middle-block {
 div.spacer {
 	height: 140px;
 }
+
+h3{	
+ 	color: #5FC6CC;
+}
+h3 a{
+	color: white;
+}
+
+.btn.default.about{
+	background-color: #6DCCD0;
+}
+.btn.default.contact{
+	background: #88B747;
+}
+.btn.default.blog{
+	background-color:#732D89;
+}
+.btn.default.press{
+	background-color:#F20088;
+}
+
