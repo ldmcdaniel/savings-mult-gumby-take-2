@@ -40,13 +40,14 @@ h5{
  	color: #5FC6CC;
 }
 
-h3 a, .btn.default a{
+h3 a, .btn.default a, .push_four.four.columns p{
 	color: white;
 }
 
 h4 {
 	color: #8CB82D;
 }
+
 p {
 	color: #56B2BA;
 }
@@ -79,7 +80,7 @@ div.six.columns.top-menu {
 }
 
 body div.row.header-div {
-	margin-top: 100px;
+	margin-top: 0px;
 	border-radius: 10%;
 }
 
@@ -95,16 +96,26 @@ div.row.last-link-row ul li {
 
 body div.pink-nav-bar {
 	background-color: #f7cad2;
-	
 	max-width: none;
 }
 
 div.pink-nav-bar div.columns:first-child {
 	margin-left: 15.5%;
 }
+
 div.pink-nav-bar a{
 	font-family: "Gorditas", "cursive";
 	color: #68073c;
 	font-size: 20px;
 	margin-right: 40px;
+}
+
+div.sign-in-sign-up.row{
+	background-color: #6DCCD1;
+	margin-top: 70px;
+}
+
+.push_four.four.columns {
+	margin-left: 85%;
+	
 }
