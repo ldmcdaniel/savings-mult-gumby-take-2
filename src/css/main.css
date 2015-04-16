@@ -83,3 +83,28 @@ body div.row.header-div {
 	border-radius: 10%;
 }
 
+div.row.last-link-row {
+	background: transparent;
+	color: white;
+	margin-bottom: 80px;
+}
+
+div.row.last-link-row ul li {
+	margin-right: 10px;
+}
+
+body div.pink-nav-bar {
+	background-color: #f7cad2;
+	
+	max-width: none;
+}
+
+div.pink-nav-bar div.columns:first-child {
+	margin-left: 15.5%;
+}
+div.pink-nav-bar a{
+	font-family: "Gorditas", "cursive";
+	color: #68073c;
+	font-size: 20px;
+	margin-right: 40px;
+}
