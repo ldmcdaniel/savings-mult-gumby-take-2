@@ -19,11 +19,6 @@ header.ul{
 	float: right;
 }
 
-.savings-mult-logo{
-	height: 150px;
-	width: 250px;
-} 
-
 div.middle-block {
 	padding: 40px;
 }
@@ -72,6 +67,19 @@ p {
 	background-color:#F20088;
 }
 
+div.six.columns.top-menu {
+	padding-top: 45px;
+}
 
+.savings-mult-logo {
+    height: auto;
+    width: 500px;
+    margin: -55px;
+    margin-bottom: -40px;
+}
 
+body div.row.header-div {
+	margin-top: 100px;
+	border-radius: 10%;
+}
 
