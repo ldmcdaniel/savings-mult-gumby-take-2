@@ -8,7 +8,7 @@ body {
 
 body div.row {
 	background-color: #fff;
-	border-radius: 3%;
+	border-radius: 0 0 5% 5%;
 }
 
 li{
@@ -81,7 +81,8 @@ div.six.columns.top-menu {
 
 body div.row.header-div {
 	margin-top: 0px;
-	border-radius: 10%;
+	border-radius: 5% 5% 0 0;
+
 }
 
 div.row.last-link-row {
@@ -118,4 +119,22 @@ div.sign-in-sign-up.row{
 .push_four.four.columns {
 	margin-left: 85%;
 	
+
+	margin-right: 60px;
+}
+
+input.pink-nav-search {
+	border: 2px solid #68073c;
+	color: #68073c;
+}
+
+.btn.small {
+	width: 110px;
+	height: 30px;
+
+}
+
+.btn a {
+	font-size: 20px;
+
 }
