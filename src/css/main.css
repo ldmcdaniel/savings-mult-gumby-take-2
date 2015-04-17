@@ -2,7 +2,6 @@
 body {
 	background-color: #75cbd3;
 	/*background: linear-gradient( #d5f1f0, #d5f1f0 150px, #75cbd2 151px, #75cbd3 10000px);
-	background: linear-gradient(to bottom, #1e5799 0%,#207cca 31%,#2989d8 31%,#7db9e8 100%);
 	background-repeat: no-repeat;*/
 }
 
@@ -124,6 +123,7 @@ div.sign-in-sign-up.row{
 }
 
 input.pink-nav-search {
+	border-radius: 30px;
 	border: 2px solid #68073c;
 	color: #68073c;
 }
@@ -131,10 +131,6 @@ input.pink-nav-search {
 .btn.small {
 	width: 110px;
 	height: 30px;
-	@include respond(all-phones) {
-		width: 80px;
-		height: 20px;
-	}
 
 }
 
@@ -153,12 +149,18 @@ div.current-menu-item
 }
 
 @media screen and (max-width:500px) {
+	.savings-mult-logo {
+		margin: 0;
+	}
+	div.six.columns.top-menu {
+    	padding-top: 0px;
+	}
 	.btn.small.header-btn {
-		width: 75px;
+		width: 58px;
 		height: 25px;	
 	}
 	.btn a {
-		font-size: 15px;
+		font-size: 11px;
 	}
 
 	ul.disappearing-list {
@@ -170,7 +172,18 @@ div.current-menu-item
 	ul.phone-nav {
 		display: none;
 	}
+
+	div.spacer {
+		display: none;
+	}
+
+	ul.dotted-line-images li:nth-child(n+6) {
+		display: none;
+	}
 	
+	ul.bottom-links {
+		display: none;
+	}
 }
 
 div.current-menu-item:hover > ul.phone-nav {
