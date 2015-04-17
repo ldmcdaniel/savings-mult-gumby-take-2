@@ -150,7 +150,6 @@ div.row.callout-row {
 div.current-menu-item
 {
 	display: none;
-	text-decoration: underline;
 }
 
 @media screen and (max-width:500px) {
@@ -171,8 +170,13 @@ div.current-menu-item
 	ul.phone-nav {
 		display: none;
 	}
+	
 }
 
 div.current-menu-item:hover > ul.phone-nav {
 	display: block;
+}
+
+div.current-menu-item ul div li a.linkColor {
+	color: white;
 }
