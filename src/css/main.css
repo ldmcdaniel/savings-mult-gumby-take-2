@@ -100,14 +100,14 @@ body div.pink-nav-bar {
 }
 
 div.pink-nav-bar div.columns:first-child {
-	margin-left: 15.5%;
+	margin-left: 19%;
 }
 
 div.pink-nav-bar a{
 	font-family: "Gorditas", "cursive";
 	color: #68073c;
 	font-size: 20px;
-	margin-right: 40px;
+	margin-right: 60px;
 }
 
 div.sign-in-sign-up.row{
@@ -117,8 +117,6 @@ div.sign-in-sign-up.row{
 
 .push_four.four.columns {
 	margin-left: 85%;
-	
-
 	margin-right: 60px;
 }
 
