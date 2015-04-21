@@ -1,0 +1,70 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    meta(http-equip="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    title Savings Multiplied
+    link(rel="stylesheet", type="text/css", href="https://cdnjs.cloudflare.com/ajax/libs/gumby/2.6.0/css/gumby.css")
+    link(href="http://fonts.googleapis.com/css?family=Gorditas:400,700", rel="stylesheet", type="text/css")
+    link(rel="stylesheet", type="text/css", href="/css/main.css")
+  body.page-background
+    .sign-in-sign-up.row
+      .eight-colgrid
+        .eight.columns
+        .push_four.four.columns
+          p Sign In | Sign Up
+      .eight.colgrid
+        .row.header-div
+          .six.columns
+            img.savings-mult-logo(src="/img/owls/savings-multiplied-logo-WEB.png")
+          .six.columns.top-menu
+            ul.header-options
+              li.small.oval.btn.default.about.headter-btn About
+                a(href='#')
+              li.small.oval.btn.default.contact.headter-btn Contact
+                a(href='#')
+              li.small.oval.btn.default.blog.headter-btn Blog
+                a(href='#')
+              li.small.oval.btn.default.press.headter-btn Press
+                a(href='#')
+              h5 Where parents of multiples save, sell & share
+    .row.pink-nav-bar
+      .centered.columns.twelve
+        ul.disappearing-list
+          li
+            a(href='#') Buy
+          li
+            a(href='#') Sell
+          li
+            a(href='#') How It Works
+          li
+            a(href='#') Links
+          li
+            a(href='#') Community
+          li
+            input.xnarrow.pink-nav-search.oval(type="search", placeholder="Search...")
+        .current-menu-item
+          a Navigation
+          ul.phone-nav
+            .columns.centered.two
+              li
+                a.linkColor(href='#') Buy
+            .columns.centered.two
+              li
+                a.linkColor(href='#') Sell
+            .columns.centered.two
+              li
+                a.linkColor(href='#') How It Works
+            .columns.centered.two
+              li
+                a.linkColor(href='#') Links
+            .columns.centered.two
+              li
+                a.linkColor(href='#') Community
+            .columns.centered.two
+              li
+                input.xnarrow.pink-nav-search.oval(type="search", placeholder="Search...")
+    .row
+    block content
+    

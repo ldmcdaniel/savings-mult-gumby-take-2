@@ -1,0 +1,36 @@
+body {
+  background-color: #75cbd3;
+}
+
+li {
+  display: inline;
+}
+
+header.ul {
+  float: right;
+}
+
+.middle-block {
+  padding: 40px;
+}
+
+.spacer {
+  height: 140px;
+}
+
+h3, h4 {
+  font-family: "Gorditas";
+  font-weight: bold;
+}
+
+p, h5 {
+  font-family: "Gorditas";
+}
+
+h3 a,
+.btn.default a,
+.push_four.four.columns p {
+  color: white;
+}
+
+
