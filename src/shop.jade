@@ -1,3 +1,125 @@
 extends _layout
 block content
-  
+  .four.columns.container-color.container-space
+    .container-color
+      h5.container-color Limit your search by:           
+      hr.container-color           
+      .field
+        input.wide.input(type='text')             
+        .medium.secondary.oval.btn(style='color: #fff; background-color: #00cc00; width: 75px;') search           
+      .row.container-color
+        .six.columns.container-color
+          p Condition:            
+        .six.columns
+          div
+            label.radio.checked(for='radio1')
+              input (name='radio', id='radio1', value='1', type='radio', checked='checked')              
+                span 
+                  New              
+          div
+            label.radio(for='radio2')
+              input#radio2(name='radio', value='2', type='radio')
+                span
+                  Gently Used
+      p Size:         
+      .row.container-color
+        .push_one.five.columns
+          div
+            label.radio(for='radio1')
+              input#radio1(name='radio', value='1', type='radio')
+              span
+                4           
+          div
+            label.radio(for='radio2')
+              input#radio2(name='radio', value='2', type='radio')
+              span
+                5            
+          div
+            label.radio(for='radio3')
+              input#radio3(name='radio', value='3', type='radio')
+              span
+                6              
+          div
+            label.radio(for='radio4')
+              input#radio4(name='radio', value='4', type='radio')
+              span
+                7
+        .six.columns
+          div
+            label.radio(for='radio1')
+              input#radio1(name='radio', value='1', type='radio')
+              span
+                8            
+          div
+            label.radio(for='radio2')
+              input#radio2(name='radio', value='2', type='radio')
+              span
+                9             
+          div
+            label.radio(for='radio3')
+              input#radio3(name='radio', value='3', type='radio')
+              span
+                10            
+          div
+            label.radio(for='radio4')
+              input#radio4(name='radio', value='4', type='radio')
+              span
+                11       
+      p Seasons:         
+      .push_one.eleven.columns.container-color
+        div
+          label.radio(for='radio1')
+            input#radio1(name='radio', value='1', type='radio')
+            span
+              All Seasons           
+        div
+          label.radio(for='radio2')
+            input#radio2(name='radio', value='2', type='radio')                
+            span
+              Spring
+        div
+          label.radio(for='radio3')
+            input#radio3(name='radio', value='3', type='radio')                
+            span
+              Summer
+        div
+          label.radio(for='radio4')
+            input#radio4(name='radio', value='4', type='radio')
+            span
+              Fall
+        div
+          label.radio(for='radio5')
+            input#radio5(name='radio', value='5', type='radio')
+            span
+              Winter
+      p Type:           
+      .push_one.eleven.columns.container-color
+        div
+          label.radio(for='radio1')
+            input#radio1(name='radio', value='1', type='radio')
+            span
+              Any
+        div
+          label.radio(for='radio2')
+            input#radio2(name='radio', value='2', type='radio')
+            span
+              One Piece
+        div
+          label.radio(for='radio3')
+            input#radio3(name='radio', value='3', type='radio')
+            span
+              Tops
+        div
+          label.radio(for='radio4')
+            input#radio4(name='radio', value='4', type='radio')
+            span
+              Bottoms
+      p Brand:
+      li.field
+        .picker
+          select
+            option Janie and Jack
+            option Old Navy
+            option Gap
+            option Target
+            option Columbia
