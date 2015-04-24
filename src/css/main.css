@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
   background-color: #75cbd3; }
 
 body .row {
@@ -53,10 +54,71 @@ p {
 .six.columns.top-menu {
   padding-top: 45px; }
 
+=======
+  background-color: #75cbd3;
+  /*background: linear-gradient( #d5f1f0, #d5f1f0 150px, #75cbd2 151px, #75cbd3 10000px);
+  background-repeat: no-repeat;*/
+}
+body div.row {
+  background-color: #fff;
+  border-radius: 0 0 5% 5%;
+}
+li {
+  display: inline;
+}
+header.ul {
+  float: right;
+}
+div.middle-block {
+  padding: 40px;
+}
+div.spacer {
+  height: 140px;
+}
+h3,
+h4 {
+  font-family: "Gorditas";
+  font-weight: bold;
+}
+p,
+h5 {
+  font-family: "Gorditas";
+}
+h5 {
+  color: #5FC6CC;
+}
+h3 a,
+.btn.default a,
+.push_four.four.columns p {
+  color: white;
+}
+h4 {
+  color: #8CB82D;
+}
+p {
+  color: #56B2BA;
+}
+.btn.default.about {
+  background-color: #6DCCD0;
+}
+.btn.default.contact {
+  background: #88B747;
+}
+.btn.default.blog {
+  background-color: #732D89;
+}
+.btn.default.press {
+  background-color: #F20088;
+}
+div.six.columns.top-menu {
+  padding-top: 45px;
+}
+>>>>>>> 1c00a269837e345717b59dc0a7d30ddc9580cd9c
 .savings-mult-logo {
   height: auto;
   width: 500px;
   margin: -55px;
+<<<<<<< HEAD
   margin-bottom: -40px; }
 
 body .row.header-div {
@@ -160,3 +222,108 @@ body div.container-color h5 {
 
 .search-container hr {
   border: 1px solid #00CC00; }
+=======
+  margin-bottom: -40px;
+}
+body div.row.header-div {
+  margin-top: 0px;
+  border-radius: 30px 30px 0 0;
+}
+div.row.last-link-row {
+  background: transparent;
+  color: white;
+  margin-bottom: 80px;
+}
+div.row.last-link-row ul li {
+  margin-right: 10px;
+}
+body div.pink-nav-bar {
+  background-color: #f7cad2;
+  max-width: none;
+}
+div.pink-nav-bar div.columns:first-child {
+  margin-left: 19%;
+}
+div.pink-nav-bar a {
+  font-family: "Gorditas", "cursive";
+  color: #68073c;
+  font-size: 20px;
+  margin-right: 60px;
+}
+div.sign-in-sign-up.row {
+  background-color: #6DCCD1;
+  margin-top: 70px;
+}
+.push_four.four.columns {
+  margin-left: 85%;
+  margin-right: 60px;
+}
+input.pink-nav-search {
+  border-radius: 30px;
+  border: 2px solid #68073c;
+  color: #68073c;
+}
+.btn.small {
+  width: 110px;
+  height: 30px;
+}
+.btn a {
+  font-size: 20px;
+}
+div.row.callout-row {
+  background: none;
+}
+div.current-menu-item {
+  display: none;
+}
+@media screen and (max-width: 500px) {
+  .savings-mult-logo {
+    margin: 0;
+  }
+  div.six.columns.top-menu {
+    padding-top: 0px;
+  }
+  .btn.small.header-btn {
+    width: 58px;
+    height: 25px;
+  }
+  .btn a {
+    font-size: 11px;
+  }
+  ul.disappearing-list {
+    display: none;
+  }
+  div.current-menu-item {
+    display: inline;
+  }
+  ul.phone-nav {
+    display: none;
+  }
+  div.spacer {
+    display: none;
+  }
+  ul.dotted-line-images li:nth-child(n+6) {
+    display: none;
+  }
+  ul.bottom-links {
+    display: none;
+  }
+}
+div.current-menu-item:hover > ul.phone-nav {
+  display: block;
+}
+div.current-menu-item ul div li a.linkColor {
+  color: white;
+}
+/* css for details on the grid */
+.details {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Nobile', Helvetica, Arial, sans-serif;
+  font-size: 0.65em;
+  line-height: inherit;
+  width: 122px;
+  display: inline-block;
+}
+>>>>>>> 1c00a269837e345717b59dc0a7d30ddc9580cd9c
