@@ -1,19 +1,21 @@
 body div.container-color,
 body div.container-color p,
-body div.container-color h5{
+div.container-color {
   background-color: $container-backg-color;
   color: $container-color;
   font-family: Arial, Helvetica, sans-serif;
 }
-
-.container-space {
+/* removed the body tag above for the aside container color to see what happens
+ */
+aside.container-space {
   border-radius: 50px;
   padding: 20px;
   margin-top: 20px;
 }
 
-.container-color h5 {
+aside.container-color h5 {
   text-align: center;
+  /* $container-backg-color; */
 }
 
 .search-container div.field div.btn {
@@ -23,3 +25,44 @@ body div.container-color h5{
 .search-container hr {
   border: 1px solid $container-hr-color;
 }
+
+/* need some h6 styles */
+h6 {
+  font-size: 1em;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: $container-color;
+  margin: 0;
+  color: #2e8a2e;
+}
+.details {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Nobile', Helvetica, Arial, sans-serif;
+  font-size: 0.5em;
+  line-height: inherit;
+  width: 122px;
+  display: inline-block;
+}
+
+/* give elements some space */
+.lowpad {
+  padding-bottom: 20px;
+}
+.highpad {
+  padding-top: 20px;
+}
+/* clear the floats */
+.clearfix:after {
+  content:".";
+  display:block;
+  height:0;
+  clear:both;
+  visibility:hidden;
+}
+.clearfix {display:inline-block;}
+/* Hide from IE Mac \*/
+  .clearfix {display:block;}
+/* End hide from IE Mac */
+  

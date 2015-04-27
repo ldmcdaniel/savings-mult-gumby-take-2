@@ -25,7 +25,35 @@ p, h5 {
   font-family: "Gorditas"; }
 
 h5 {
-  color: #5FC6CC; }
+  color: #5FC6CC;
+}
+/* from EA: h5 styles for the grid */
+.breadcrumb h5  {
+  font-family: Tahoma, Helvetica, Arial, sans-serif
+  
+}
+/* from EA: h6 styles for the grid */
+h6 {
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  margin: 0;
+  color: #2e8a2e;
+}
+.sort {
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  margin: 0;
+  color: #2e8a2e;
+  text-align: right;
+  padding-right:20px;
+  
+}
+/* from EA: a little right float */
+.righty {
+  float: right;
+}
 
 h3 a,
 .btn.default a,
@@ -140,17 +168,29 @@ input.pink-nav-search {
 .current-menu-item ul div li a.linkColor {
   color: #fff; }
 
-body div.container-color,
-body div.container-color p,
-body div.container-color h5 {
+body div.container-color {
   background-color: #E0FFD1;
   color: #2e8a2e;
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: Tahoma, Helvetica, sans-serif;
+}
+body div.container-color p {
+  background-color: #E0FFD1;
+  color: #2e8a2e;
+  font-family: Tahoma, Helvetica, sans-serif;
+}
+
+aside.container-color h5 {
+  font-size: 1.3em;
+  background-color: #E0FFD1;
+  color: #2e8a2e;
+  font-family: Tahoma, Helvetica, sans-serif; }
 
 .container-space {
   border-radius: 50px;
   padding: 20px;
-  margin-top: 20px; }
+  margin-top: 20px;
+  background-color: #E0FFD1;
+}
 
 .container-color h5 {
   text-align: center; }
@@ -160,3 +200,28 @@ body div.container-color h5 {
 
 .search-container hr {
   border: 1px solid #00CC00; }
+
+/** EDWIN ADDITIONS
+*************************/
+
+/* need some h6 styles */
+main.h6 {
+  font-size: 1em;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  margin: 0;
+  color: #2e8a2e;
+}
+/* for the photo captions */
+.details {
+  margin: 0;
+  padding: 0 0 20px 0;
+  text-align: center;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  font-size: 0.7em;
+  line-height: 1.3em;
+  width: 122px;
+}
+/* gumby margin hack */
+columns-fix {
+  margin-left: -2.12766%;; }

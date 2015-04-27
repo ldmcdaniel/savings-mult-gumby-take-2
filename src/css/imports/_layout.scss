@@ -4,7 +4,7 @@ body {
 body {
   .row {
     background-color: $row-backg-color;
-	border-radius: 0 0 5% 5%;
+    border-radius: 0 0 5% 5%;
   }
 }
 
@@ -91,10 +91,10 @@ body {
   margin-bottom: 80px;
 }
 
-.row.last-link-row 
+.row.last-link-row
   ul {
     li {
-	  margin-right: 10px;
+    margin-right: 10px;
     }
   }
 
@@ -157,7 +157,7 @@ input.pink-nav-search {
 
 @media screen and (max-width:500px) {
   .savings-mult-logo {
-	margin: 0;
+  margin: 0;
   }
 
   .six.columns.top-menu {
@@ -166,7 +166,7 @@ input.pink-nav-search {
 
   .btn.small.header-btn {
     width: 58px;
-    height: 25px;	
+    height: 25px;
   }
 
   .btn {
@@ -196,7 +196,7 @@ input.pink-nav-search {
       display: none;
     }
   }
-	
+  
   ul.bottom-links {
     display: none;
   }
@@ -209,7 +209,7 @@ input.pink-nav-search {
 .current-menu-item {
   ul {
     div {
-      li { 
+      li {
         a.linkColor {
           color: $current-menu-item;
         }

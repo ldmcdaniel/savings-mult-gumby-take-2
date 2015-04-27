@@ -2,130 +2,95 @@ extends _layout
 
 block body
   .row
-    .four.columns.container-color.container-space
-      .container-color
-        h5.container-color Limit your search by:           
-        hr.container-color           
-        .field
-          input.wide.input( type='text')             
-          .medium.secondary.oval.btn(style='color: #fff; background-color: #00cc00; width: 75px;') search           
-        .row.container-color
-          .six.columns.container-color
-            p Condition:            
-          .six.columns
-            div
-              label.radio.checked(for='radio1')
-                input (name='radio', id='radio1', value='1', type='radio', checked='checked')              
-                  span 
-                    New              
-            div
-              label.radio(for='radio2')
-                input#radio2(name='radio', value='2', type='radio')
-                  span
-                    Gently Used
-        p Size:         
-        .row.container-color
-          .push_one.five.columns
-            div
-              label.radio(for='radio1')
-                input#radio1(name='radio', value='1', type='radio')
-                span
-                  4           
-            div
-              label.radio(for='radio2')
-                input#radio2(name='radio', value='2', type='radio')
-                span
-                  5            
-            div
-              label.radio(for='radio3')
-                input#radio3(name='radio', value='3', type='radio')
-                span
-                  6              
-            div
-              label.radio(for='radio4')
-                input#radio4(name='radio', value='4', type='radio')
-                span
-                  7
-          .six.columns
-            div
-              label.radio(for='radio1')
-                input#radio1(name='radio', value='1', type='radio')
-                span
-                  8            
-            div
-              label.radio(for='radio2')
-                input#radio2(name='radio', value='2', type='radio')
-                span
-                  9             
-            div
-              label.radio(for='radio3')
-                input#radio3(name='radio', value='3', type='radio')
-                span
-                  10            
-            div
-              label.radio(for='radio4')
-                input#radio4(name='radio', value='4', type='radio')
-                span
-                  11       
-        p Seasons:         
-        .push_one.eleven.columns.container-color
-          div
-            label.radio(for='radio1')
-              input#radio1(name='radio', value='1', type='radio')
-              span
-                All Seasons           
-          div
-            label.radio(for='radio2')
-              input#radio2(name='radio', value='2', type='radio')                
-              span
-                Spring
-          div
-            label.radio(for='radio3')
-              input#radio3(name='radio', value='3', type='radio')                
-              span
-                Summer
-          div
-            label.radio(for='radio4')
-              input#radio4(name='radio', value='4', type='radio')
-              span
-                Fall
-          div
-            label.radio(for='radio5')
-              input#radio5(name='radio', value='5', type='radio')
-              span
-                Winter
-        p Type:           
-        .push_one.eleven.columns.container-color
-          div
-            label.radio(for='radio1')
-              input#radio1(name='radio', value='1', type='radio')
-              span
-                Any
-          div
-            label.radio(for='radio2')
-              input#radio2(name='radio', value='2', type='radio')
-              span
-                One Piece
-          div
-            label.radio(for='radio3')
-              input#radio3(name='radio', value='3', type='radio')
-              span
-                Tops
-          div
-            label.radio(for='radio4')
-              input#radio4(name='radio', value='4', type='radio')
-              span
-                Bottoms
-        p Brand:
-        li.field
-          .picker
-            select
-              option Janie and Jack
-              option Old Navy
-              option Gap
-              option Target
-              option Columbia
-    .main.eight.columns
+    aside.four.columns.container-color.container-space
+      h5.container-color Limit your search by:
+      hr
+      .row.field
+      input.normal(type="text")
+      .small.oval.btn.success search
+      .row.container-color.highpad
+        .six.columns.container-color.lowpad
+          h6.highpad Condition:
+        .six.columns.container-color
+          .two.columns.container-color
+            input(name="radio", id="radio1", value="1" type="radio")
+          .four.columns
+            label New
+        
+        .six.columns.container-color
+          input(name="radio", id="radio2", value="2" type="radio")
+          label Gently Used
+      .row.twelve.colgrid.container-color
+        h6.highpad Size:
+        .six.columns.color-container
+          .twelve.columns.container-color
+            input(name="radio", type="radio")
+            label 4
+          .twelve.columns.container-color
+            input(name="radio", type="radio")
+            label 5
+          .twelve.columns.container-color
+            input(name="radio", type="radio")
+            label 6
+          .twelve.columns.container-color
+            input(name="radio", type="radio")
+            label 7
+        .five.columns.color-container
+          .twelve.columns.container-color
+            input(name="radio", type="radio")
+            label 8
+          .twelve.columns.container-color
+            input(name="radio", type="radio")
+            label 9
+          .twelve.columns.container-color
+            input(name="radio", type="radio")
+            label 10
+          .twelve.columns.container-color
+            input(name="radio", type="radio")
+            label 11
+      .row.container-color
+        h6.highpad Season:
+        .twelve.columns
+          input(name="radio",  type="radio")
+          label All Seasons
+        .twelve.columns
+          input(name="radio", type="radio")
+          label Spring
+        .twelve.columns
+          input(name="radio",  type="radio")
+          label Summer
+        .twelve.columns
+          input(name="radio",  type="radio")
+          label Fall
+        .twelve.columns
+          input(name="radio",  type="radio")
+          label Winter
+      .row.container-color
+        h6.highpad Type:
+        .container-color.twelve.columns
+          input(name="radio",  type="radio")
+          label Any
+        .twelve.columns
+          input(name="radio",  type="radio")
+          label One-Piece
+        .twelve.columns
+          input(name="radio",  type="radio")
+          label Tops
+        .twelve.columns
+          input(name="radio",  type="radio")
+          label Bottoms
+      .row.container.color
+      img(src="img/page-assets/brand-dropdown.png")
+    .main.row.eight.columns.container-space
+      .row
+        .twelve.columns.highpad.breadcrumb
+          h5.container-color ALL > TWIN > B/G
+      .row
+        .twelve.columns.highpad.lowpad
+          .six.columns.lowpad
+            img(src="img/page-assets/dropdown-box-copy.png")
+          .six.columns.lowpad
+            p.sort prev. | page num. | next | view all
       .row
         figure.three.columns
           img(src="img/page-assets/thumbnail.png")
@@ -147,8 +112,7 @@ block body
           figcaption.details
             div Sailor Suits $15
             div Jane Joe 4 hours
-      .row
-        figure.three.columns
+        figure.three.columns.columns-fix
           img(src="img/page-assets/thumbnail.png")
           figcaption.details
             div Sailor Suits $15
@@ -168,8 +132,7 @@ block body
           figcaption.details
             div Sailor Suits $15
             div Jane Joe 4 hours
-      .row
-        figure.three.columns
+        figure.three.columns.columns-fix
           img(src="img/page-assets/thumbnail.png")
           figcaption.details
             div Sailor Suits $15
